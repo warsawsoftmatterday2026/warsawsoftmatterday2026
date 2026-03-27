@@ -388,6 +388,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
         6. Works  - GENERAL INFORMATION
 --------------------------------------*/
 .works{padding: 117px 0px 100px;}
+.works .section-header {
+    text-align: left;
+}
 .works-content {margin-top: 10px;
 			   max-width: 900px;
 			   margin-left: auto;
