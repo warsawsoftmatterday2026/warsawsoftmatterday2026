@@ -3,6 +3,37 @@
 
     <head>
 	<style>
+	details {
+  margin-top: 4px;
+}
+
+details summary {
+  cursor: pointer;
+  color: #2c7bb6;       /* match your site's accent colour */
+  font-size: 0.9em;
+  list-style: none;     /* remove default triangle on some browsers */
+}
+
+details summary::-webkit-details-marker {
+  display: none;        /* hide default triangle in Chrome/Safari */
+}
+
+details[open] summary {
+  color: #1a5276;
+}
+
+details p, details em {
+  display: block;
+  margin-top: 6px;
+  padding: 8px 12px;
+  background: #f4f8fb;
+  border-left: 3px solid #2c7bb6;
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+
+		
+		
 		ul.a{
   		text-align: left;
 		margin-left: 35%;
@@ -491,11 +522,15 @@ If you have any questions, do not hesitate to email <a href="mailto:tomasz.wacla
                 <td style="color:#FF545A;">Bogdan Cichocki (University of Warsaw)</td>
                 <td>9:05 – 10:00</td>
             </tr>
-		<tr class="linia-color">
-			<td></td>
-			<td><i>To be confirmed</i></td>
-			<td></td>
-		</tr>
+			<tr class="linia-color">
+  			<td></td>
+  			<td colspan="2">
+    		<details>
+     		 <summary>▸ Abstract</summary>
+     		 <em>To be confirmed</em>
+    		</details>
+  			</td>
+			</tr>
 		<tr class="empty-row2">
 		    <td colspan="3"></td>
 	    	</tr>
